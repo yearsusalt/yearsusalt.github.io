@@ -1371,7 +1371,7 @@ template {
   }
 }
 :root {
-  --global-font-size: 18px;
+  --global-font-size: 20px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
