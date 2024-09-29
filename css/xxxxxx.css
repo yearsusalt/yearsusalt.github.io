@@ -1,0 +1,50 @@
+/*GitHub开源圆角*/
+#card-info-btn {
+    border-radius: 7px;
+    overflow: hidden;
+  }
+/* 右侧小按钮圆角 */
+#rightside>div>button,#to_comment {
+    margin-right: 4px;
+    border-radius: 7px;
+  }
+
+/*侧边滑动颜色*/
+:root {
+    --btn-bg: #3a87b9;
+}
+/*底部切换按钮*/
+.layout>.recent-posts .pagination>* {
+    display: inline-block;
+    margin: 0 6px;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+  }
+  
+  /*底部圆角*/
+#pagination .page-number.current {
+      border-radius: 7px;
+  }
+  #recent-posts > .recent-post-item {
+    height: 20em;
+}
+/* 去除导航栏选项中底下的蓝条 */
+#nav *::after{
+  background-color: transparent!important;
+}
+
+/* 导航栏菜单鼠标移入字体放大 */
+#nav #site-name:hover, 
+#nav .menus_item:hover, 
+#nav #search-button:hover{
+  font-size:28px;
+}
+/* 导航栏做居中处理 */
+#nav-right{
+  flex:1 1 auto;
+  justify-content: flex-end;
+  margin-left: auto;
+  display: flex;
+  flex-wrap:nowrap;
+}
